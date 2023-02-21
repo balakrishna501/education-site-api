@@ -17,7 +17,7 @@ Please follow the below steps to setup and run education-site-api
 $ cd education-site-api-main
 $ mvn clean install 
 $ mvn spring-boot:run -Dspring-boot.run.arguments="--spring.profiles.active=dev"
-$ Open web browser & hit the swagger url: http://localhost:8080/student-course/swagger-ui.html
+$ Open web browser & hit the swagger url: http://localhost:8080/edu/api/swagger-ui.html
 ```
 ## Development Setup
 
@@ -39,8 +39,8 @@ $ mvn test -Dspring-boot.run.arguments="--spring.profiles.active=dev"
 ```
 
 ## Testing API
-- Open http://localhost:8080/student-course/swagger-ui.html
+- Open http://localhost:8080/edu/api/swagger-ui.html
 - Click on addCourse/addStudent or any one of the endPoint.
 - Click on Try it out and fill the input payload as per the contract.
 - Finally Click on Excetue and ensure to see the 200 response with response message.
-- Also Open http://localhost:8080/student-course/h2/ from web browser and click on Connect without password to view the data persisted by this api.
+- Also Open http://localhost:8080/edu/api/h2/ from web browser and click on Connect without password to view the data persisted by this api.
