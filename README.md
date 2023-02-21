@@ -14,7 +14,7 @@ Please follow the below steps to setup and run education-site-api
 -  Clone/Checkout the project from version control system (git) and follow below steps
 
 ```
-$ cd student-course-registration-api
+$ cd education-site-api
 $ mvn clean install 
 $ mvn spring-boot:run -Dspring-boot.run.arguments="--spring.profiles.active=dev"
 $ Open web browser & hit the swagger url: http://localhost:8080/student-course/swagger-ui.html
